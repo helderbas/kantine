@@ -1,0 +1,46 @@
+Class documentation
+<---- javadoc command: ---->
+D:\Programma's\Java\JDK\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.7
+-classpath
+C:\Program Files (x86)\BlueJ\lib\bluejcore.jar;C:\Program Files (x86)\BlueJ\lib\junit-4.8.2.jar;D:\Documenten\School\Thema 1.2\Tutoraat\kantine
+-d
+D:\Documenten\School\Thema 1.2\Tutoraat\kantine\doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+C:\Program Files (x86)\BlueJ\lib\bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+D:\Documenten\School\Thema 1.2\Tutoraat\kantine\Persoon.java
+<---- end of javadoc command ---->
+Loading source file D:\Documenten\School\Thema 1.2\Tutoraat\kantine\Persoon.java...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_01
+Building tree for all the packages and classes...
+Generating D:\Documenten\School\Thema 1.2\Tutoraat\kantine\doc\Persoon.html...
+D:\Documenten\School\Thema 1.2\Tutoraat\kantine\Persoon.java:27: warning - @gebDag is an unknown tag.
+D:\Documenten\School\Thema 1.2\Tutoraat\kantine\Persoon.java:27: warning - @gebMaand is an unknown tag.
+D:\Documenten\School\Thema 1.2\Tutoraat\kantine\Persoon.java:27: warning - @gebJaar is an unknown tag.
+D:\Documenten\School\Thema 1.2\Tutoraat\kantine\Persoon.java:27: warning - @geslacht is an unknown tag.
+Generating D:\Documenten\School\Thema 1.2\Tutoraat\kantine\doc\package-frame.html...
+Generating D:\Documenten\School\Thema 1.2\Tutoraat\kantine\doc\package-summary.html...
+Generating D:\Documenten\School\Thema 1.2\Tutoraat\kantine\doc\constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating D:\Documenten\School\Thema 1.2\Tutoraat\kantine\doc\allclasses-frame.html...
+Generating D:\Documenten\School\Thema 1.2\Tutoraat\kantine\doc\allclasses-noframe.html...
+Generating D:\Documenten\School\Thema 1.2\Tutoraat\kantine\doc\index.html...
+Generating D:\Documenten\School\Thema 1.2\Tutoraat\kantine\doc\stylesheet.css...
+4 warnings

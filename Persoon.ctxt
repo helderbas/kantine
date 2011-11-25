@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=bsn\ voornaam\ achternaam\ gebDag\ gebMaand\ gebJaar\ geslacht
+comment0.target=Persoon(int,\ java.lang.String,\ java.lang.String,\ int,\ int,\ int,\ java.lang.String)
+comment0.text=\n\ Constructor\ class\ Persoon\n\ @param\ bsn\ burgerservicenummer\ nieuw\ persoon\n\ @param\ voornaam\ Voornaam\ nieuw\ persoon\n\ @param\ achternaam\ Achternaam\ nieuw\ persoon\n\ @gebDag\ Geboortedag\ nieuw\ persoon\n\ @gebMaand\ Geboortemaand\ nieuw\ persoon\n\ @gebJaar\ Geboortejaar\ nieuw\ persoon\n\ @geslacht\ Geslacht\ nieuw\ persoon\n
+comment1.params=bsn
+comment1.target=void\ setBsn(int)
+comment1.text=\n\ Bsn\ setten\n\ @param\ bsn\ het\ ingevulde\ burgerservicenummer\n
+comment2.params=voornaam
+comment2.target=void\ setVoornaam(java.lang.String)
+comment2.text=\n\ Voornaam\ setten\n\ @param\ voornaam\ de\ ingevulde\ voornaam\n
+comment3.params=achternaam
+comment3.target=void\ setAchternaam(java.lang.String)
+comment3.text=\n\ Achternaam\ setten\n\ @param\ achternaam\ de\ ingevulde\ achternaam\n
+comment4.params=dag\ maand\ jaar
+comment4.target=void\ setGebdatum(int,\ int,\ int)
+comment4.text=\n\ Geboortedatum\ setten\n\ @param\ dag\ Ingevoerde\ cijfer\ dat\ de\ dag\ aangeeft\n\ @param\ maand\ Ingevoerde\ cijfer\ dat\ de\ maan\ aangeeft\n\ @param\ jaar\ Ingevoerde\ cijfer\ dat\ het\ jaar\ aangeeft\n\ Methode\ checkt\ eerst\ of\ de\ datum\ wel\ geldig\ is,\ als\ dit\ zo\ is\ set\ hij\ de\ dag,\ de\ maan\ en\ het\ jaar\n
+comment5.params=Geslacht
+comment5.target=void\ setGeslacht(java.lang.String)
+comment5.text=\n\ Geslacht\ setten\n\ @param\ Geslacht\ het\ ingevoerde\ geslacht\n
+numComments=6
