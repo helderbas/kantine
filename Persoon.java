@@ -128,5 +128,23 @@ public class Persoon
         }
     }
     
+     /**
+     * Getter voor geboortedatum
+     * @reurn Geboortedatum
+     */
+    public String getGebDatum()
+    {
+        String temp;
+        if (gebDag==0 && gebMaand==0 && gebJaar==0)
+        {
+            temp="Onbekend";
+        }
+        else
+        {
+            temp=gebDag+"/"+gebMaand+"/"+gebJaar;
+        }
+        return temp;
+    }
+    
     
 }
