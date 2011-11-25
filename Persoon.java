@@ -12,7 +12,7 @@ public class Persoon
     private int gebDag;
     private int gebMaand;
     private int gebJaar;
-    private String geslacht;
+    private char geslacht;
     
 
     /**
@@ -25,7 +25,7 @@ public class Persoon
      * @gebJaar Geboortejaar nieuw persoon
      * @geslacht Geslacht nieuw persoon
      */
-    public Persoon(int bsn, String voornaam, String achternaam, int gebDag, int gebMaand, int gebJaar, String geslacht)
+    public Persoon(int bsn, String voornaam, String achternaam, int gebDag, int gebMaand, int gebJaar, char geslacht)
     {
         this.bsn = bsn;
         this.voornaam = voornaam;
@@ -116,21 +116,35 @@ public class Persoon
      * Geslacht setten
      * @param Geslacht het ingevoerde geslacht
      */
-    public void setGeslacht(String Geslacht)
+    public void setGeslacht(char Geslacht)
     {
-        if(Geslacht == "man" || Geslacht == "vrouw")
+        if(Geslacht == 'm' || Geslacht == 'M' || Geslacht =='v' || Geslacht == 'V')
         {
             this.geslacht = Geslacht;
         }
         else
         {
-            System.out.println("Vul bij geslacht 'man' of 'vrouw' in");
+            System.out.println("Vul bij geslacht 'm', 'M', 'v' of 'V' in");
         }
     }
     
-     /**
+      /**
+     * Getter voor geslacht
+     * @return geslacht
+     */
+    public String getGeslacht()
+    {
+
+        if (geslacht == 'm' || geslacht == 'M') return "Man";
+       
+        if (geslacht == 'v' || geslacht == 'V') return "Vrouw";
+        
+        return "Onbekend";
+    }
+    
+    /**
      * Getter voor geboortedatum
-     * @reurn Geboortedatum
+     * @return Geboortedatum
      */
     public String getGebDatum()
     {
@@ -146,5 +160,41 @@ public class Persoon
         return temp;
     }
     
+     /**
+     * Getter voor bsn
+     * @return bsn
+     */
+    public int getBsn()
+    {
+        return bsn;
+    }
+    
+    /**
+    * Getter voor voornaam
+    * @return voornaam
+    */
+    public String getVoornaam()
+    {
+        return voornaam;
+    }
+    
+      /**
+     * Getter voor achternaam
+     * @return achternaam
+     */
+    public String getAchternaam()
+    {
+        return achternaam;
+    }
+    
+    public void drukAf()
+    {
+        System.out.println("Bsn: " + getBsn());
+        System.out.println("Voornaam: " + getVoornaam());
+        System.out.println("Achternaam: " + getAchternaam());
+        System.out.println("Geboortedatum(dd/mm/jjjj): " + getGebDatum());
+        System.out.println("Geslacht: " + getGeslacht());
+    }
+        
     
 }
