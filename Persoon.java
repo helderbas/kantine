@@ -1,6 +1,6 @@
 /**
  * @author Alexander Jeurissen, Bas Helder
- * @version 0.2
+ * @version 0.1
  */
 
 public class Persoon
@@ -94,9 +94,18 @@ public class Persoon
             }
             else
             {
-                if (dag > 28 && maand == 2)
+                if (dag > 28 && dag <= 29 && maand == 2)
                 {
-                     System.out.println("U heeft een ongeldige datum ingevoerd");
+                    if(date.isSchrikkeljaar(jaar))
+                    {
+                        gebDag = dag;
+                        gebMaand = maand;
+                        gebJaar = jaar;
+                    }
+                
+                    else{     
+                            System.out.println("U heeft een ongeldige datum ingevoerd");
+                        }
                 }
                 else
                 {
@@ -106,6 +115,8 @@ public class Persoon
                 }
             }
         }
+        
+                
         else
         {
             System.out.println("U heeft een ongeldige datum ingevoerd");
